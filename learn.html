@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Sophophile-Learn</title>
+    <style>
+        .mole {
+            z-index: 1020;
+        }
+
+        .modal-backdrop.in {
+            z-index: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img class="bi me-2" width="160" height="40" src="logo.png">
+                <use xlink:href="index.html"></use>
+                </img>
+
+            </a>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="learn.html" class="nav-link active" aria-current="page">Learn</a></li>
+
+            </ul>
+        </header>
+        <div class="jumbotron">
+            <h1 class="display-4">Courses</h1>
+            <p class="lead">All We Have To Offer!</p>
+            <hr class="my-4">
+            <p>Our Courses are really very fun and interactive, come <strong>Let's be a Life Long Learner</strong></p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Browse Courses</a>
+            </p>
+        </div>
+    </div>
+    <div class="container px-4 py-5 sticky-top" id="couse">
+        <h2 class="pb-2 border-bottom">Our Courses</h2>
+
+        <ul class="nav nav-pills navbar-dark bg-light px-3 sticky-top">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#chemcata">Chemistry</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#phy">Physics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#bio">Biology</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#meth">Mathematics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#cs">Computer Science</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mis">Miscellaneous</a>
+            </li>
+
+        </ul>
+        <div class="container-fluid">
+            <div class="chemistry" id="chemcata">
+                <h4 class="pb-2 border-bottom mt-5">Chemistry</h4>
+
+
+                <div class="row mb-2 mt-3">
+                    <div class="col-md-6">
+                        <!-- course 1 -->
+                        <div
+                            class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-warning">Chemistry</strong>
+                                <span>
+                                    <h5 class="mb-0">Atomic Basics <span class="badge bg-success">New</span>
+                                    </h5>
+                                </span>
+
+                                <div class="mb-1 text-muted">Ninja Course</div>
+                                <p class="card-text mb-auto">Taking a deep dive into the atom and its basics, The
+                                    Fundamental
+                                    Block of our World!</p>
+                                <button type="button" class="btn btn-outline-warning" data-toggle="modal"
+                                    data-target="#atom">
+                                    Start Course
+                                </button>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img class="bd-placeholder-img" width="200" height="250"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" src="c1.png">
+
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div
+                            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static"><strong
+                                    class="d-inline-block mb-2 text-warning">Chemistry</strong>
+                                <div>
+
+                                    <span>
+                                        <h5 class="mb-0">The Mole Concept <span class="badge bg-secondary">Coming
+                                                Soon</span>
+                                        </h5>
+                                    </span>
+                                </div>
+
+                                <div class="mb-1 text-muted">Ninja Course</div>
+                                <p class="mb-auto">Let's Learn about the Mole, not the animal but the chemistry one!
+                                </p>
+
+                                <button type="button" class="btn btn-outline-warning" disabled data-toggle="modal"
+                                    data-target="#mole">
+                                    Comming Soon
+                                </button>
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+                                <img class="bd-placeholder-img" width="200" height="250"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false" src="c2.png">
+
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="physics" id="phy">
+                <h4 class="pb-2 border-bottom mt-5">Physics</h4>
+                <div class="row mb-2 mt-3">
+                    <div class="col-md-6">
+                        <!-- course 1 -->
+                        <div
+                            class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <strong class="d-inline-block mb-2 text-primary">Physics</strong>
+                                <span>
+                                    <h5 class="mb-0">Courses <span class="badge bg-secondary">Coming
+                                            Soon</span>
+                                    </h5>
+                                </span>
+
+                                <div class="mb-1 text-muted"></div>
+                                <p class="card-text mb-auto"></p>
+
+                            </div>
+                            <div class="col-auto d-none d-lg-block">
+
+
+                                <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="Biology" id="bio">
+                <div class="biology">
+                    <h4 class="pb-2 border-bottom mt-5">Biology</h4>
+                    <div class="row mb-2 mt-3">
+                        <div class="col-md-6">
+                            <!-- course 1 -->
+                            <div
+                                class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-success">Biology</strong>
+                                    <span>
+                                        <h5 class="mb-0">Courses <span class="badge bg-secondary">Coming
+                                                Soon</span>
+                                        </h5>
+                                    </span>
+
+                                    <div class="mb-1 text-muted"></div>
+                                    <p class="card-text mb-auto"></p>
+
+                                </div>
+                                <div class="col-auto d-none d-lg-block">
+
+
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="mathematics">
+                <div class="mathematics" id="meth">
+                    <h4 class="pb-2 border-bottom mt-5">Mathematics</h4>
+                    <div class="row mb-2 mt-3">
+                        <div class="col-md-6">
+                            <!-- course 1 -->
+                            <div
+                                class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-danger">Mathematics</strong>
+                                    <span>
+                                        <h5 class="mb-0">Courses <span class="badge bg-secondary">Coming
+                                                Soon</span>
+                                        </h5>
+                                    </span>
+
+                                    <div class="mb-1 text-muted"></div>
+                                    <p class="card-text mb-auto"></p>
+
+                                </div>
+                                <div class="col-auto d-none d-lg-block">
+
+
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="cs">
+                <div class="cs" id="cs">
+                    <h4 class="pb-2 border-bottom mt-5">Computer Science</h4>
+                    <div class="row mb-2 mt-3">
+                        <div class="col-md-6">
+                            <!-- course 1 -->
+                            <div
+                                class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-info">Computer Science</strong>
+                                    <span>
+                                        <h5 class="mb-0">Courses <span class="badge bg-secondary">Coming
+                                                Soon</span>
+                                        </h5>
+                                    </span>
+
+                                    <div class="mb-1 text-muted"></div>
+                                    <p class="card-text mb-auto"></p>
+
+                                </div>
+                                <div class="col-auto d-none d-lg-block">
+
+
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="mis">
+                <div class="mis" id="mis">
+                    <h4 class="pb-2 border-bottom mt-5">Miscellaneous</h4>
+                    <div class="row mb-2 mt-3">
+                        <div class="col-md-6">
+                            <!-- course 1 -->
+                            <div
+                                class=" row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                    <strong class="d-inline-block mb-2 text-dark">Miscellaneous</strong>
+                                    <span>
+                                        <h5 class="mb-0">Courses <span class="badge bg-secondary">Coming
+                                                Soon</span>
+                                        </h5>
+                                    </span>
+
+                                    <div class="mb-1 text-muted"></div>
+                                    <p class="card-text mb-auto"></p>
+
+                                </div>
+                                <div class="col-auto d-none d-lg-block">
+
+
+                                    <rect width="100%" height="100%" fill="#55595c"></rect>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <div class="modal fade" id="mole" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-backdrop="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">The Mole Concept</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+
+                    <a href="#" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Start
+                        Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="atom" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-backdrop="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Introduction To The Atom</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Click On the button belo to start the course</p>
+                </div>
+                <div class="modal-footer">
+
+                    <a href="atom.html" class="btn btn-primary btn-lg" role="button" aria-pressed="false">Start
+                        Course</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    </div <!-- Optional JavaScript; choose one of the two! -->
+    <script>
+        $(function () {
+            $('#mole').appendTo('body');
+        });
+        $(function () {
+            $('#atom').appendTo('body');
+        });
+
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
